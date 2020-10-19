@@ -1,0 +1,39 @@
+@import "~@angular/material/theming";
+@include mat-core();
+
+@import "./custom-theme.scss";
+@import url("https://fonts.googleapis.com/css2?family=Seaweed+Script&display=swap");
+
+@include angular-material-theme($theming-material-components-theme);
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-color: $primary;
+}
+
+h1 {
+  font-family: "Seaweed Script", cursive;
+  color: $accent;
+}
+
+mat-form-field.mat-form-field {
+  background: transparent;
+  color: $accent;
+  display: block;
+}
+
+mat-tab-group {
+  margin: 5% 10% 5% 10%;
+  color: #f2f2f2;
+  max-width: 800px;
+}
+
+.mat-tab-label.mat-tab-label-active {
+  color: $accent;
+}

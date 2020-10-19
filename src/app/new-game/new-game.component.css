@@ -1,0 +1,18 @@
+.headerimg {
+  height: 800px;
+  width: 100%;
+  background: transparent url("../../assets/samurai-small.jpg") no-repeat bottom
+    center / cover;
+}
+
+mat-grid-tile {
+  margin-top: 10%;
+}
+
+.alempi {
+  margin-top: 0;
+}
+
+.gamebrief {
+  margin: 1%;
+}
